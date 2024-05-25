@@ -7,9 +7,7 @@ function checkForSpam(message) {
   //   return false;
   // }
 
-  return message.includes("spam") || message.includes("sale")
-    ? "true"
-    : "false";
+  return message.includes("spam") || message.includes("sale");
 }
 
 console.log(checkForSpam("Latest technology news")); // false
